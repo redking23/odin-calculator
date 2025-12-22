@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.all-buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 30%;
+    grid-auto-rows: 60px;
+    gap:10px;
+}   

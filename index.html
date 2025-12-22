@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hesap Makinesi</h1>
+        <input type="text" id="display" disabled>
+        <div class="all-buttons">   
+            <button class="allclear" data-type="action" data-value="allclear">AC</button>
+            <button class="clear" data-type="action" data-value="clear">C</button>
+            <button class="remainder" data-type="operator" data-value="%">%</button>
+            <button class="divide" data-type="operator" data-value="/">/</button>
+
+            <button class="digits" data-type="number" data-value="7">7</button>
+            <button class="digits" data-type="number" data-value="8">8</button>
+            <button class="digits" data-type="number" data-value="9">9</button>
+            <button class="multiply" data-type="operator" data-value="*">*</button>
+
+            <button class="digits" data-type="number" data-value="4">4</button>
+            <button class="digits" data-type="number" data-value="5">5</button>
+            <button class="digits" data-type="number" data-value="6">6</button>
+            <button class="subtract" data-type="operator" data-value="-">-</button>
+
+            <button class="digits" data-type="number" data-value="1">1</button>
+            <button class="digits" data-type="number" data-value="2">2</button>
+            <button class="digits" data-type="number" data-value="3">3</button>
+            <button class="add" data-type="operator" data-value="+">+</button>
+
+            <button class="digits" data-type="number" data-value="0">0</button>
+            <button class="digits" data-type="decimal" data-value=".">.</button>
+            <button class="equals" data-type="equals" data-value="=">=</button>
+        </div>
+            
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
