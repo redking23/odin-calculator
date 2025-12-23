@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    width: 100%;
     max-width: 300px;
     margin: 0 auto;
     padding: 20px;
@@ -18,6 +19,10 @@
     gap: 10px;
 }
 
-.display {
+#display {
     height: 60px;
+}
+
+.all-buttons :hover {
+    background-color: rgb(110, 95, 160);
 }
