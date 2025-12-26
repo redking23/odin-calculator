@@ -2,14 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
     padding: 20px;
     gap: 10px;
-    background-color: rgb(90, 90, 90);
+
+    background-color: #2a2b2f;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
 }
 
 .all-buttons {
@@ -21,8 +23,31 @@
 
 #display {
     height: 60px;
+    background-color: #3a3b3f;
+    border-radius: 10px;
 }
 
-.all-buttons :hover {
+.all-buttons button:hover {
     background-color: rgb(110, 95, 160);
 }
+
+button {
+    border: 2px solid black;
+    background-color: #4a4b50;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+.allclear {
+    background-color: #d9534f;
+}
+.clear {
+    background-color: #f0ad4e;
+}
+input{  
+    text-align: right;
+    font-size: 3em;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #3a3b3f;}
