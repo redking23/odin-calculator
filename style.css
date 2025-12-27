@@ -1,3 +1,13 @@
+body {
+    background-color: #1e1f23;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -23,7 +33,7 @@
 
 #display {
     height: 60px;
-    background-color: #3a3b3f;
+    background-color: #44464a;
     border-radius: 10px;
 }
 
