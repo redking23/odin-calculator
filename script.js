@@ -9,6 +9,7 @@ let shouldResetDisplay = false;
 function updateDisplay() {
   display.value = displayValue;
 }
+updateDisplay();
 
 function operate(a, b, op) {
   switch (op) {
